@@ -15,5 +15,5 @@ def find_min_in_nested_arrays(src)
     lowest_temperatures.push(current_lowest_temp)
     row_index += 1 
   end
-  return lowest_temperatures
+  lowest_temperatures
 end
