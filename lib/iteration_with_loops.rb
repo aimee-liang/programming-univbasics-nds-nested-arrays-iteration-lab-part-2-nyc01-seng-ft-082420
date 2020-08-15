@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
       end
       element_index += 1 
     end
-    lowest_temperatures.push(temperature)
+    lowest_temperatures.push(current_lowest_temp)
     row_index += 1 
   end
   return lowest_temperatures
